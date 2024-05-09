@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "328452067639",
+    "project_id": "chatme-c9a7a",
+    "storage_bucket": "chatme-c9a7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328452067639:android:9f02665f6330c586244ab2",
+        "android_client_info": {
+          "package_name": "com.example.chatme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7q3KWpmiwSuBlmSuFWYIZh4u6KU18qz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

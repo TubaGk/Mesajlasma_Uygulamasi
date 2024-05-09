@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp"
+    tools:context=".ChatActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/PrimaryDark"
+        android:titleTextColor="@color/white" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatrecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/sendmessageLayout"
+        android:layout_below="@+id/toolbar"
+        />
+
+    <RelativeLayout
+        android:id="@+id/sendmessageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="15dp"
+       >
+
+        <EditText
+            android:id="@+id/messageEdit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/edit_style_box"
+            android:hint="Mesajınızı giriniz."
+            android:padding="15dp"/>
+
+        <ImageView
+            android:id="@+id/sendMessageIcon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:padding="15dp"
+            android:background="@drawable/button1"
+            android:src="@drawable/send"/>
+
+    </RelativeLayout>
+</RelativeLayout>
